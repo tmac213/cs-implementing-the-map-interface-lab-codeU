@@ -184,6 +184,10 @@ public class MyLinearMap<K, V> implements Map<K, V> {
 		}
 	}
 
+    public static void p(String s) {
+        System.out.println(s);
+    }
+
 	/**
 	 * Returns a reference to `entries`.
 	 * 
